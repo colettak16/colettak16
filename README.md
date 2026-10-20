@@ -93,4 +93,4 @@ Michigan Sports Analytics Society: fantasy lineup optimization and the society's
 
 ---
 
-Interests, in and out of code: LLM agents and agent safety, text-to-SQL and natural-language interfaces to data, efficient small models, and sports analytics (NFL first, then everything else).
+Interests, in and out of code: LLM agents and agent safety, text-to-SQL and natural-language interfaces to data, efficient small models, and sports analytics.
