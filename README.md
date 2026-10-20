@@ -2,7 +2,7 @@
 
 **MS in Data Science @ Columbia University** (expected December 2026, 4.00 GPA) · New York, NY
 
-I build LLM agents and the systems that keep them honest: natural-language interfaces to data, deterministic guardrails and evaluation for agents, and fine-tuned small models. Everything below is deployed or in a public repo, not left in a notebook.
+I build LLM agents, research guardrails, and design evaluation pipelines. Projects inlcude natural-language interfaces to data, deterministic guardrails and evaluation for agents, and fine-tuned small models.
 
 Before Columbia I spent four years at Princeton Consultants leading a team of 10+ developers and QA on a multi-year, multimillion-dollar modernization for a Fortune 500 client. Now I research coding-agent safety at Columbia's Data, Agents, and Processes Lab (DAPLab) and ship LLM applications end to end, from data pipeline to fine-tuning to deployment.
 
@@ -14,7 +14,7 @@ Before Columbia I spent four years at Princeton Consultants leading a team of 10
 
 ---
 
-## At a glance
+## Highlights
 
 - **Agents in production:** [StatIt](https://www.stat-it.com), a public NFL stats engine with self-correcting text-to-SQL and a multi-step tool-use agent, built and run solo since early 2026
 - **Agent safety research:** Data Flow Control at Columbia DAPLab, a policy layer that deterministically stops coding agents from breaking user-defined rules
@@ -31,10 +31,6 @@ A policy-enforcement framework inside LLM harnesses that deterministically block
 ### Next-Edit Prediction for Code Completion · MS capstone sponsored by IBM (Fall 2026)
 A five-person team extending Zed's open-source [Zeta](https://github.com/zed-industries/zeta) edit-prediction work: growing the dataset, building evaluations, and training models with LoRA supervised fine-tuning and DPO. Deliverables are a model, a report, and a paper.
 
-### Lou · NYC scavenger-hunt agent ([repo](https://github.com/jan-barg/scavagent), [live](https://scavagent-b57mvtutma-ue.a.run.app))
-Built with Jan Barganowski for Columbia's Agentic AI course in one week this October. Tell Lou where you are and how long you have, and it researches real places from Wikipedia and NYC landmark records, times the route with live transit data, writes a mystery with a clue earned at each stop, and guides you one stop at a time. My half: the deterministic plan evaluator (50+ violation codes, each returned with a fix the model applies itself), the agent instructions, the Wikipedia and NYC Landmarks research tools, and the transit routing. 341 Python tests.
-`FastAPI` `LiteLLM` `Claude Sonnet` `Google Cloud Run`
-
 ---
 
 ## Projects
@@ -46,6 +42,10 @@ Ask a question in plain English, get an answer with charts, over a custom 1999-t
 ### Promptly · AWS x AGI House Small Language Model Hackathon, first place (November 2025) · [repo](https://github.com/HenriqueSchmitz/small-language-model-hackathon)
 Inline Chrome extension that reads what you type into an LLM chatbot and suggests ways to make the prompt more effective, powered by a LoRA fine-tuned TinyLlama trained on AWS Trainium. Idea to working demo in one weekend with my team.
 `TinyLlama` `LoRA` `AWS Trainium` `Chrome Extension`
+
+### Lou · NYC scavenger-hunt agent ([repo](https://github.com/jan-barg/scavagent), [live](https://scavagent-b57mvtutma-ue.a.run.app))
+Built with Jan Barganowski for Columbia's Agentic AI course in one week this October. Tell Lou where you are and how long you have, and it researches real places from Wikipedia and NYC landmark records, times the route with live transit data, writes a mystery with a clue earned at each stop, and guides you one stop at a time. 
+`FastAPI` `LiteLLM` `Claude Sonnet` `Google Cloud Run`
 
 ### [Aura](https://github.com/colettak16/aura-therapy-chat) · CBT-informed therapy chatbot · [live demo](https://aura-therapy-chat.onrender.com/)
 Free, publicly accessible chatbot from an Applied Machine Learning team project. Llama 3.2 fine-tuned with LoRA on paired preferred and rejected therapist responses, served from a Hugging Face inference endpoint behind a web app on Render, with a dual-model fallback (currently running the fallback model to keep hosting free).
@@ -70,14 +70,6 @@ Coding-agent safety and evaluation research (Data Flow Control, above).
 Managed 10+ developers and QA on a multi-year Fortune 500 software modernization under an Agile workflow. Owned timelines, implementation strategy, and budget for a multimillion-dollar project, and presented progress and risks to product owners and executives, including a mid-project re-scope that the client approved as an expanded Statement of Work. Reverse-engineered a poorly documented legacy system by interviewing subject matter experts, reading COBOL source, and validating behavior with Python and SQL.
 
 **Earlier:** QA and test automation intern at DISH Network (Python scripts parsing test artifacts into a standardized format); business intern at the U.S. Securities and Exchange Commission (explained an ML model's abnormal-trading flags with ggplot2 visualizations for a non-technical audience).
-
----
-
-## How I work
-
-- I build with AI coding agents every day, Claude Code most of all, and I keep a critical eye on what they produce: my research is literally about catching what coding agents get wrong.
-- I automate the tedious parts of my own life. The latest is a small script that checks Luma twice a week and has an LLM pick out the networking events worth my time.
-- I like owning a problem end to end, and I communicate early: blockers get raised the day they appear, not the week after.
 
 ---
 
