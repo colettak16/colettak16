@@ -39,7 +39,7 @@ A five-person team extending Zed's open-source [Zeta](https://github.com/zed-ind
 Ask a question in plain English, get an answer with charts, over a custom 1999-to-present stats database. Validated, self-correcting text-to-SQL (SELECT-only validator, read-only database role, failed queries retried with the Postgres error fed back), plus an agent mode where a multi-step tool-use agent plans an analysis, runs SQL, builds charts, and streams a written synthesis over SSE. Supabase auth, per-user quotas and rate limiting that bound API cost, query history, and a weekly GitHub Actions sync from nflverse that fails loudly on schema drift. Built solo and used by the public.
 `React` `FastAPI` `PostgreSQL` `Claude API` `Supabase` `Railway` `Vercel`
 
-### Promptly · AWS x AGI House Small Language Model Hackathon, first place (November 2025) · [repo](https://github.com/HenriqueSchmitz/small-language-model-hackathon)
+### Promptly · AWS x AGI House Small Language Model Hackathon, first place (November 2025) · [demo](https://lnkd.in/p/e_rkRHCw)
 Inline Chrome extension that reads what you type into an LLM chatbot and suggests ways to make the prompt more effective, powered by a LoRA fine-tuned TinyLlama trained on AWS Trainium. Idea to working demo in one weekend with my team.
 `TinyLlama` `LoRA` `AWS Trainium` `Chrome Extension`
 
