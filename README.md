@@ -35,7 +35,7 @@ A five-person team extending Zed's open-source [Zeta](https://github.com/zed-ind
 
 ## Projects
 
-### [StatIt](https://github.com/colettak16/StatIt) · natural-language NFL stats engine · [stat-it.com](https://www.stat-it.com)
+### StatIt · natural-language NFL stats engine · [stat-it.com](https://www.stat-it.com)
 Ask a question in plain English, get an answer with charts, over a custom 1999-to-present stats database. Validated, self-correcting text-to-SQL (SELECT-only validator, read-only database role, failed queries retried with the Postgres error fed back), plus an agent mode where a multi-step tool-use agent plans an analysis, runs SQL, builds charts, and streams a written synthesis over SSE. Supabase auth, per-user quotas and rate limiting that bound API cost, query history, and a weekly GitHub Actions sync from nflverse that fails loudly on schema drift. Built solo and used by the public.
 `React` `FastAPI` `PostgreSQL` `Claude API` `Supabase` `Railway` `Vercel`
 
@@ -47,15 +47,15 @@ Inline Chrome extension that reads what you type into an LLM chatbot and suggest
 Built with Jan Barganowski for Columbia's Agentic AI course in one week this October. Tell Lou where you are and how long you have, and it researches real places from Wikipedia and NYC landmark records, times the route with live transit data, writes a mystery with a clue earned at each stop, and guides you one stop at a time. 
 `FastAPI` `LiteLLM` `Claude Sonnet` `Google Cloud Run`
 
-### [Aura](https://github.com/colettak16/aura-therapy-chat) · CBT-informed therapy chatbot · [live demo](https://aura-therapy-chat.onrender.com/)
+### Aura · CBT-informed therapy chatbot · [live demo](https://aura-therapy-chat.onrender.com/)
 Free, publicly accessible chatbot from an Applied Machine Learning team project. Llama 3.2 fine-tuned with LoRA on paired preferred and rejected therapist responses, served from a Hugging Face inference endpoint behind a web app on Render, with a dual-model fallback (currently running the fallback model to keep hosting free).
 `Llama 3.2` `LoRA` `PyTorch` `Hugging Face` `Render`
 
-### [Personal portfolio with ColettaBot](https://github.com/colettak16/coletta_website) · [kylecoletta.com](https://kylecoletta.com)
+### Personal portfolio with ColettaBot · [kylecoletta.com](https://kylecoletta.com)
 Portfolio site with a RAG chatbot that answers questions about my background and projects, grounded in chunked documents and served from Vercel serverless functions.
 `Claude API` `OpenAI Embeddings` `Supabase pgvector` `Vercel`
 
-### [AWS x NFL Big Data Bowl](https://github.com/colettak16/AWSxNFL-Big-Data-Bowl) · [report](https://colettak16.github.io/AWSxNFL-Big-Data-Bowl/)
+### AWS x NFL Big Data Bowl · [report](https://colettak16.github.io/AWSxNFL-Big-Data-Bowl/)
 Co-authored analysis of 2023-season NFL play and player-tracking data, entered in the Kaggle competition's University Track and published as a Quarto site. Ranked offensive formations against defensive coverages by EPA, and showed that play action increases receiver separation on nearly every route type.
 `R` `ggplot2` `Quarto`
 
